@@ -8,5 +8,42 @@
     tools:context=".Home">
 
 
+    <Button
+        android:id="@+id/entryBtn"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.07"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark"
+        android:text="Entry"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/exitBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.07"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/entryBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
