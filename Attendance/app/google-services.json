@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "657659772256",
+    "firebase_url": "https://attendancemark-bcb8d-default-rtdb.firebaseio.com",
+    "project_id": "attendancemark-bcb8d",
+    "storage_bucket": "attendancemark-bcb8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657659772256:android:61c67aea0b4654ddc1f205",
+        "android_client_info": {
+          "package_name": "com.example.attendancemark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657659772256-fvnf0h8mneon3ggifmof6ncic90gm9rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.attendancemark",
+            "certificate_hash": "413ceb7dbb25b343af5c7db6af40b4c0ecb2a82d"
+          }
+        },
+        {
+          "client_id": "657659772256-ddr67i7dprrq3agtucjlsba5rita281r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH3eGBqEfAhSunagfpJO6QkjlQAva3_vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657659772256-ddr67i7dprrq3agtucjlsba5rita281r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
